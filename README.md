@@ -1,3 +1,16 @@
+<div align="center">
+  <img src="asset/logo1.png" height="80" alt="Logo 1" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="asset/logo2.jpeg" height="80" alt="Logo 2" />
+</div>
+
+<br/>
+
+<h1 align="center">
+  Autonomous Robotic Systems for Coral Reef Monitoring<br>
+  <small>Review and Open Research Issues</small>
+</h1>
+
 <h1 align="center">
   Autonomous Robotic Systems for Coral Reef Monitoring<br>
   <small>Review and Open Research Issues</small>
