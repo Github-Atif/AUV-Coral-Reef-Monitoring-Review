@@ -1,99 +1,68 @@
 <h1 align="center">
-  <img height="85" alt="image" src="https://github.com/user-attachments/assets/bcfb2af2-5889-4534-bfec-a46f062f9244" /><br>
-  Beyond observation: Deep learning for animal behavior and ecological conservation deep learning for animal behavior and ecological conservation
-
+  Autonomous Robotic Systems for Coral Reef Monitoring<br>
+  <small>Review and Open Research Issues</small>
 </h1>
 
-
-
-
 <div align="center">
-  <a href="https://scholar.google.com/schhp?hl=en">Lyes Saad Saoud</a> &nbsp;•&nbsp;
-  <a href="https://scholar.google.com/schhp?hl=en">Atif Sultan</a> &nbsp;•&nbsp;
-  <a href="https://scholar.google.com/schhp?hl=en">Mahmoud Elmezain</a> &nbsp;•&nbsp;
-  <a href="https://scholar.google.com/schhp?hl=en">Mohamed Heshmat</a> &nbsp;•&nbsp;
+  <a href="#">Atif Sultan</a> &nbsp;•&nbsp;
+  <a href="#">Lyes Saad Saoud</a> &nbsp;•&nbsp;
+  <a href="#">Mahmoud Elmezain</a> &nbsp;•&nbsp;
+  <a href="#">Mohamed Heshmat</a> &nbsp;•&nbsp;
   <br/>
-  <a href="https://scholar.google.com/schhp?hl=en">Lakmal Seneviratne</a> &nbsp;•&nbsp;
-  <a href="https://scholar.google.com/citations?user=bCC3kdUAAAAJ&hl=en">Irfan Hussain</a> &nbsp;•&nbsp;
-  <br/>
+  <a href="#">Lakmal Seneviratne</a> &nbsp;•&nbsp;
+  <a href="https://scholar.google.com/citations?user=bCC3kdUAAAAJ&hl=en">Irfan Hussain</a>
 </div>
 
 <h4 align="center">
-  <a href="https://doi.org/10.1016/j.ecoinf.2024.102893/"><b>Paper</b></a>
+  <a href="#"><b>Paper (Elsevier – coming soon)</b></a>
 </h4>
 
-<div align="center">
+---
 
- <img height="65" alt="image" src="https://github.com/user-attachments/assets/f9af6b5d-b8f3-4ca9-9398-d1d01cea6262" />  &nbsp;&nbsp; <img height="65" alt="image" src="https://github.com/user-attachments/assets/5dd33fad-d340-4fa4-b47b-6b2c3e44819a" />
+![Comparison of conventional and robotic coral monitoring methods](asset/fig1.png)
 
-</div>
-
-[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
-[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
-
-
+Comparison of conventional coral reef monitoring methods and autonomous robotic approaches, highlighting advantages (green) and limitations (red).
 
 ---
 
+This repository is the companion page for the review paper:
 
-![Comparison of traditional and deep learning methods in animal behavior analysis](asset/fig1.png)
+> **Autonomous Robotic Systems for Coral Reef Monitoring: Review and Open Research Issues**  
+> *Ecological Informatics, 2025 (under review / accepted).*  
 
-Comparison of traditional and deep learning methods in animal behavior analysis in terms of procedures, advantages (green), and disadvantages (red).
+### Scope of the Review
 
-#### [Paper (Elsevier)](https://doi.org/10.1016/j.ecoinf.2024.102893) • Video (coming soon)
+This paper surveys the use of **Autonomous Underwater Vehicles (AUVs)** and robotic platforms for coral reef monitoring, with emphasis on:
 
----
-
-This repository is a companion page for the review:
-
-> **Beyond observation: Deep learning for animal behavior and ecological conservation**  
-> *Ecological Informatics, 84 (2024), 102893.*  
-> DOI: https://doi.org/10.1016/j.ecoinf.2024.102893
-
-The paper surveys deep learning approaches for animal behavior analysis and ecological conservation.  
-It covers:
-
-- 2D and 3D pose estimation  
-- Animal tracking and behavior recognition  
-- Deep learning in poultry, wildlife, and camera trap applications  
-- Advanced technologies: drones, biotelemetry, robotics, IoT  
-- Challenges: data limitations, generalization, real-time deployment, ethics  
-- Future research directions focusing on multimodal AI and ecological monitoring
+- Visual sensing for coral health assessment  
+- AI and computer vision for species identification and bleaching detection  
+- 3D mapping and photogrammetry of reef structures  
+- Navigation and autonomy in complex reef environments  
+- Comparison with diver-based and traditional monitoring methods  
+- Open challenges and future research directions  
 
 ---
 
-# Summary of the Work
+![Examples of visual reef monitoring and segmentation](asset/fig2.png)
 
-- Overview of deep learning methods for analyzing animal motion and behavior  
-- Key applications in agriculture, conservation, and wildlife monitoring  
-- Integration of sensing technologies (RGB cameras, IR, drones, telemetry)  
-- Technical challenges and promising directions for robust ecological AI  
+Examples of visual data used for coral reef monitoring and automated analysis using robotic platforms.
 
 ---
 
+## Acknowledgements
 
-![Sample images of camouflaged animals from the CAMO++ Dataset](asset/fig2.png)
-
-Sample images of camouflaged animals from the CAMO++ Dataset and their labels.
-
-
-# Acknowledgements
-
-This publication is based upon work supported by the Khalifa University of Science and Technology under Award No. RC1-2018-KUCARS.
+This publication is based upon work supported by the  
+**Khalifa University Center for Autonomous Robotic Systems (KUCARS)**.
 
 ---
 
-# BibTeX
+## BibTeX
 
 ```bibtex
-@article{saadsaoud2024beyond,
-  title={Beyond observation: Deep learning for animal behavior and ecological conservation},
-  author={Saad Saoud, Lyes and Sultan, Atif and Elmezain, Mahmoud and Heshmat, Mohamed and Seneviratne, Lakmal and Hussain, Irfan},
+@article{sultan2025coral,
+  title={Autonomous robotic systems for coral reef monitoring: Review and open research issues},
+  author={Sultan, Atif and Saoud, Lyes and Elmezain, Mahmoud and Heshmat, Mohamed and Seneviratne, Lakmal and Hussain, Irfan},
   journal={Ecological Informatics},
-  volume={84},
-  pages={102893},
-  year={2024},
-  publisher={Elsevier},
-  doi={10.1016/j.ecoinf.2024.102893}
+  year={2025},
+  publisher={Elsevier}
 }
-
