@@ -122,7 +122,8 @@ Figure 3 summarizes the key future directions and open research challenges discu
 
 ![Figure 3: Future directions and open research challenges in robotic coral reef monitoring](asset/fig3.jpg)
 
-**Figure 3.** *Overview of future research directions in robotic coral reef monitoring, including advancements in autonomy, AI-driven percepti*
+**Figure 3.** *Overview of future research directions in robotic coral reef monitoring, including advancements in autonomy, AI-driven perception.*
+
 ---
 
 ## 🚧 Open Challenges and Research Directions
