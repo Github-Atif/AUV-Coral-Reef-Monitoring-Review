@@ -35,51 +35,86 @@ https://www.sciencedirect.com/science/article/pii/S1574954125005205
 
 ## 🧠 Abstract
 
-Coral reefs, vital ecosystems for marine life, face severe threats from climate change and human-induced stressors. Conventional coral monitoring methods struggle to provide scalable, high-frequency, and high-resolution data. This review explores the role of **Autonomous Underwater Vehicles (AUVs)** as a transformative tool for coral reef monitoring, enabling systematic, non-invasive, and repeatable assessments over large and remote reef areas.
+Coral reefs are among the most biodiverse ecosystems on Earth, yet they face increasing threats from climate change, pollution, and anthropogenic activities. Conventional coral reef monitoring approaches—such as diver-based visual surveys—are constrained by limited spatial coverage, safety risks, observer bias, and low repeatability.
 
-The paper reviews conventional monitoring techniques and contrasts them with robotic approaches, highlighting advances in **visual sensing, acoustic systems, environmental sensors, and AI-driven analysis**. Key applications such as coral species identification, disease detection, bleaching assessment, and 3D reef mapping are discussed. Challenges related to navigation, autonomy, ecological impact, and standardization are identified, and open research directions are outlined to advance robotic coral reef monitoring.
-
----
-
-## 🎯 Scope of the Review
-
-This review focuses on **AUV-based visual coral reef monitoring**, covering:
-
-- Autonomous Underwater Vehicles (AUVs) for reef inspection  
-- Vision-based coral monitoring and computer vision techniques  
-- AI and machine learning for coral detection, classification, and health assessment  
-- 3D mapping and photogrammetry of reef structures  
-- Navigation, autonomy, and mission planning in complex reef environments  
-- Comparison with diver-based and traditional monitoring methods  
-- Open challenges and future research directions  
+This review examines how **Autonomous Underwater Vehicles (AUVs)** and robotic systems are reshaping coral reef monitoring by enabling **systematic, scalable, and non-invasive data collection**. The paper surveys advances in robotic platforms, visual sensing, artificial intelligence, and autonomous decision-making, with emphasis on applications such as coral health assessment, bleaching detection, biodiversity monitoring, and three-dimensional reef mapping. Open challenges and future research directions are identified to guide the next generation of robotic coral reef monitoring systems.
 
 ---
 
-## 📊 Comparison of Monitoring Approaches
+## 🎯 Scope and Structure of the Review
 
-![Comparison of conventional and robotic coral monitoring methods](asset/fig1.png)
+The review focuses on **vision-based AUV systems for coral reef monitoring**, covering:
 
-**Figure 1.** Comparison of conventional coral reef monitoring methods and autonomous robotic approaches in terms of procedures, advantages (green), and limitations (red).
-
----
-
-## 🤖 Robotic Vision and Data Analysis
-
-Autonomous robotic platforms integrate **high-resolution cameras, onboard processing, and AI models** to enable:
-
-- Automated coral detection and segmentation  
-- Coral bleaching and disease assessment  
-- Species identification and biodiversity monitoring  
-- Long-term, repeatable reef surveys  
-- Reduced human risk and observer bias  
+- Ecological motivations for robotic reef monitoring  
+- Limitations of conventional diver-based approaches  
+- AUV platforms, navigation, and sensing technologies  
+- Computer vision and AI for coral analysis  
+- Applications in coral health assessment and reef mapping  
+- Ethical, ecological, and operational challenges  
+- Open research directions  
 
 ---
 
-## 🪸 Visual Examples and Automated Analysis
+## 🌊 Motivation for Robotic Coral Reef Monitoring  
 
-![Examples of visual reef monitoring and segmentation](asset/fig2.png)
 
-**Figure 2.** Examples of visual data and automated analysis relevant to coral reef monitoring using robotic platforms.
+Conventional coral reef monitoring methods, including diver-based surveys and manual visual assessments, have long served as the foundation of reef ecology studies. However, these approaches are inherently limited by diver endurance, depth constraints, safety risks, and observer variability. As coral reefs continue to degrade at accelerating rates, there is an urgent need for **scalable, repeatable, and high-resolution monitoring solutions**.
+
+Figure 1 illustrates the fundamental contrast between traditional monitoring methods and automated, robotic approaches. While conventional methods offer detailed local observations, they struggle to scale across large or remote reef systems. In contrast, robotic platforms—particularly AUVs—enable continuous, objective, and high-throughput data collection.
+
+![Figure 1: Motivation and comparison of coral reef monitoring approaches](asset/fig1.jpeg)
+
+**Figure 1.** *Conceptual comparison between conventional coral reef monitoring methods and autonomous robotic approaches. The figure highlights key limitations of diver-based surveys and the advantages of AUV-enabled monitoring in terms of scalability, safety, consistency, and data quality.*
+
+---
+
+## 🤖 Autonomous Underwater Vehicles for Reef Monitoring  
+
+Autonomous Underwater Vehicles form the technological backbone of modern robotic reef monitoring. Equipped with cameras, lighting systems, navigation sensors, and onboard processors, AUVs can operate independently in complex and hazardous underwater environments. Their ability to follow pre-programmed trajectories and revisit precise locations enables consistent long-term monitoring of reef health.
+
+Figure 2 presents representative AUV platforms and system configurations used for coral reef inspection. These systems integrate visual sensing with autonomy and control algorithms, allowing robots to collect high-resolution imagery while minimizing ecological disturbance.
+
+![Figure 2: AUV-based visual coral reef monitoring systems](asset/fig2.jpg)
+
+**Figure 2.** *Examples of Autonomous Underwater Vehicles equipped with visual sensors and onboard intelligence for systematic coral reef monitoring, including imaging, navigation, and environmental data acquisition.*
+
+---
+
+## 🪸 Applications of Robotic Coral Reef Monitoring  
+
+
+Beyond data collection, robotic systems enable advanced analysis of coral reef ecosystems through the integration of computer vision and artificial intelligence. Automated techniques can detect coral colonies, classify species, assess bleaching severity, and reconstruct three-dimensional reef structures from visual data. Such capabilities significantly reduce reliance on manual annotation while improving consistency and scalability across monitoring campaigns.
+
+
+---
+
+---
+
+## 🔮 Future Directions in Robotic Coral Reef Monitoring  
+*(Paper Future Outlook / Directions Figure)*
+
+Despite rapid progress in autonomous robotic systems for coral reef monitoring, several open challenges and research opportunities remain. Addressing these challenges is essential for transitioning robotic monitoring systems from experimental deployments to large-scale, long-term conservation tools.
+
+One key direction is the development of **robust autonomy in complex reef environments**. Coral reefs are highly unstructured, dynamic, and visually cluttered, posing significant challenges for reliable navigation, obstacle avoidance, and long-term localization. Future AUVs must incorporate improved sensor fusion, adaptive planning, and learning-based navigation strategies to operate safely and efficiently in such environments.
+
+Another important research direction lies in **advanced AI-driven analysis**. While current computer vision models demonstrate promising performance in coral detection and classification, their robustness under varying illumination, turbidity, and biological diversity remains limited. Future work should focus on domain adaptation, self-supervised learning, and multimodal fusion to improve generalization across different reef systems and environmental conditions.
+
+**Real-time onboard processing and decision-making** also represent a critical frontier. Enabling AUVs to process visual and environmental data in situ would allow adaptive mission planning, early detection of bleaching or disease events, and targeted data collection, reducing reliance on post-mission analysis.
+
+From an ecological perspective, future research must consider the **long-term environmental impact and ethical deployment** of robotic platforms. This includes minimizing physical disturbance to reef structures, understanding behavioral responses of marine organisms to robots, and establishing best practices for sustainable robotic monitoring.
+
+Finally, the lack of **standardized datasets, benchmarks, and evaluation protocols** remains a major barrier to progress. Establishing shared datasets and performance metrics would enable fair comparison of methods, accelerate algorithmic development, and promote reproducibility across the research community.
+
+Figure 3 summarizes the key future directions and open research challenges discussed in this review, highlighting the interdisciplinary nature of advancing robotic coral reef monitoring.
+
+![Figure 3: Future directions and open research challenges in robotic coral reef monitoring](asset/fig3.jpg)
+
+**Figure 3.** *Overview of future research directions in robotic coral reef monitoring, including advancements in autonomy, AI-driven percepti*
+---
+
+## 🚧 Open Challenges and Research Directions
+
+Despite significant progress, several challenges remain. These include reliable underwater navigation in visually complex environments, robustness of AI models under varying lighting and turbidity conditions, ecological impacts of long-term robotic deployment, and the lack of standardized benchmarking datasets. Addressing these challenges will be critical to fully realizing the potential of robotic systems for coral reef conservation.
 
 ---
 
